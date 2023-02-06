@@ -1,40 +1,31 @@
-  <p align="center">
-  <a href="https://github.com/SpotX-CLI/SpotX-Mac"><img src="https://raw.githubusercontent.com/SpotX-CLI/SpotX-commons/main/.github/Pic/Logo/logo-mac.png" />
-</p>
-
-<p align="center">        
-      <a href="https://discord.gg/p43cusgUPm"><img src="https://discord.com/api/guilds/807273906872123412/widget.png"></a>
-      </p>
-
- ***     
+    
 
 <center>
-    <h4 align="center">A multi-featured adblocker for the Spotify macOS application.</h4>
+    <h4 align="center">This is a spotify ad blocker i found. It works pretty well for me.</h4>
     <p align="center">
-        <strong>Last updated:</strong> 20 January 2023<br>
-        <strong>Last tested version:</strong> 1.2.3.1115
+        <strong>Last updated:</strong> uuuuuhhh now i guess <br>
+        <strong>Last tested version:</strong>this one
     </p> 
 </center>
 
 ### Features:
 
-- Blocks all banner/video/audio ads within the app
-- Blocks logging (Sentry, etc)
-- Unlocks the skip function for any track
-- Blocks Spotify automatic updates (optional)
-- Enables [experimental features](https://github.com/SpotX-CLI/SpotX-Win/discussions/50) (optional)
-- Hides podcasts, episodes and audiobooks on Home Screen (optional)
-
+- It blocks all video, audio, and banner ads
+- no more logging
+- you can skip any track
+- you can optionally block spotify updates
+- you can enable experimental features which are fun
+- And you can hid basically anything you want on the home screen
 ### Installation/Update:
 
-- Close Spotify completely.
-- Run The following command in Terminal:
+- close spotify
+- paste this in a terminal:
 
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Mac/main/install.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck/main/install.sh)
 ```
 
-#### Optional Install Arguments:
+#### optional stuff:
 `-c`  Clear app cache -- use if UI-related patches aren't working  
 `-e`  Experimental features -- enables experimental features  
 `-E`  Exclude feature -- disables specified feature(s) [currently disabled]  
@@ -49,13 +40,13 @@ Use any combination of flags.
 The following example clears app cache, adds experimental features, leaves new UI enabled and blocks updates:
     
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Mac/main/install.sh) -ceu
+bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck/main/install.sh) -ceu
 ```
 
 
 ### Uninstall:
 
-- Close Spotify completely.
+- Close Spotify.
 - Run The following command in Terminal:
 
 ```
