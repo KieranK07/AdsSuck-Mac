@@ -47,10 +47,10 @@ bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck/main/instal
 ### Uninstall:
 
 - Close Spotify.
-- Run The following command in Terminal:
+- paste this in a terminal:
 
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Mac/main/uninstall.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck/main/uninstall.sh)
 ```
 
 or
@@ -59,12 +59,12 @@ or
 
 ### Notes:
 
-- Audio/video ads during Podcast playback are currently NOT blocked with SpotX.
-- Spicetify users: When using SpotX-Mac + Spicetify, the current script requires running SpotX first.
+- audio/video ads during Podcast playback are currently NOT blocked with this thing.
+- spicetify users: When using this program + Spicetify, the current script requires running it first.
 
 ### DISCLAIMER
 
-- Ad blocking is the main concern of this repo. Any other feature provided by SpotX-Mac or consequence of using those features will be the sole responsibility of the user, not BlockTheSpot/SpotX/SpotX-CLI/SpotX-Mac.
+- Ad blocking is the main concern of this repo. Any other feature provided by this or consequence of using those features will be the sole responsibility of the user, not me.
 
 ### Credits
 
