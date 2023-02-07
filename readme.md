@@ -22,7 +22,7 @@
 - paste this in a terminal:
 
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck/main/install.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck-Mac/main/install.sh)
 ```
 
 #### optional stuff:
@@ -40,7 +40,7 @@ Use any combination of flags.
 The following example clears app cache, adds experimental features, leaves new UI enabled and blocks updates:
     
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck/main/install.sh) -ceu
+bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck-Mac/main/install.sh) -ceu
 ```
 
 
@@ -50,7 +50,7 @@ bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck/main/instal
 - paste this in a terminal:
 
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck/main/uninstall.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck-Mac/main/uninstall.sh)
 ```
 
 or
