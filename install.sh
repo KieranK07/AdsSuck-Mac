@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SPOTX_VERSION="1.2.3.1115-1"
+ADSSUCK_VERSION="1.2.3.1115-1"
 
 # dependencies check
 command -v perl >/dev/null || { echo -e "\nperl was not found, exiting...\n" >&2; exit 1; }
@@ -153,13 +153,13 @@ DEVICE_PICKER_OLD='s|(Enable showing a new and improved device picker UI",defaul
 # Credits
 echo
 echo "************************"
-echo "SpotX-Mac by @SpotX-CLI"
+echo "AdsSuck by @KieranK07"
 echo "************************"
 echo
 
 # Report versions
 echo -e "Spotify version: ${CLIENT_VERSION}"
-echo -e "SpotX-Mac version: ${SPOTX_VERSION}\n"
+echo -e "AdsSuck version: ${ADSSUCK_VERSION}\n"
 
 # xpui detection
 if [[ ! -f "${XPUI_SPA}" ]]; then
@@ -168,9 +168,9 @@ if [[ ! -f "${XPUI_SPA}" ]]; then
 else
   if [[ "${FORCE_FLAG}" == "false" ]]; then
     if [[ -f "${XPUI_BAK}" ]]; then
-      echo "SpotX backup found, SpotX has already been used on this install."
-      echo -e "Re-run SpotX using the '-f' flag to force xpui patching.\n"
-      echo "Skipping xpui patches and continuing SpotX..."
+      echo "AdsSuck backup found, AdsSuck has already been used on this install."
+      echo -e "Re-run AdsSuck using the '-f' flag to force xpui patching.\n"
+      echo "Skipping xpui patches and continuing AdsSuck..."
       XPUI_SKIP="true"
     else
       echo "Creating xpui backup..."
@@ -191,17 +191,17 @@ else
 if [[ "${XPUI_SKIP}" == "false" ]]; then
   echo "Extracting xpui..."
   unzip -qq "${XPUI_SPA}" -d "${XPUI_DIR}"
-  if grep -Fq "SpotX" "${XPUI_JS}"; then
-    echo -e "\nWarning: Detected SpotX patches but no backup file!"
+  if grep -Fq "AdsSuck" "${XPUI_JS}"; then
+    echo -e "\nWarning: Detected AdsSuck patches but no backup file!"
     echo -e "Further xpui patching not allowed until Spotify is reinstalled/upgraded.\n"
-    echo "Skipping xpui patches and continuing SpotX..."
+    echo "Skipping xpui patches and continuing AdsSuck..."
     XPUI_SKIP="true"
     rm "${XPUI_BAK}" 2>/dev/null
     rm -rf "${XPUI_DIR}" 2>/dev/null
   else
     rm "${XPUI_SPA}"; fi; fi
 
-echo "Applying SpotX patches..."
+echo "Applying AdsSuck patches..."
 
 if [[ "${XPUI_SKIP}" == "false" ]]; then
   if [[ "${PREMIUM_FLAG}" == "false" ]]; then
@@ -338,11 +338,11 @@ else
 # Rebuild xpui.spa
 if [[ "${XPUI_SKIP}" == "false" ]]; then
   echo "Rebuilding xpui..."
-  echo -e "\n//# SpotX was here" >> "${XPUI_JS}"; fi
+  echo -e "\n//# AdsSuck was here" >> "${XPUI_JS}"; fi
 
 # Zip files inside xpui folder
 if [[ "${XPUI_SKIP}" == "false" ]]; then
   (cd "${XPUI_DIR}"; zip -qq -r ../xpui.spa .)
   rm -rf "${XPUI_DIR}"; fi
 
-echo -e "SpotX finished patching!\n"
+echo -e "AdsSuck finished patching!\n"
