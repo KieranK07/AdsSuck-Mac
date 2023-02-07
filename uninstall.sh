@@ -23,7 +23,7 @@ if [[ "${PATH_FLAG}" == 'false' ]]; then
   elif [[ -d "${APP_PATH}" ]]; then
     INSTALL_PATH="${APP_PATH}"
   else
-    echo -e "\nSpotify not found. Exiting...\n"
+    echo -e "\nSpotify's not here. Exiting...\n"
     exit
   fi
 else
