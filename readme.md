@@ -1,7 +1,7 @@
     
 
 <center>
-    <h4 align="center">This is a spotify ad blocker i found. It works pretty well for me.</h4>
+    <h4 align="center">This is my spotify ad blocker. It works pretty well on mac.</h4>
     <p align="center">
         <strong>Last updated:</strong> uuuuuhhh now i guess <br>
         <strong>Last tested version:</strong>this one
