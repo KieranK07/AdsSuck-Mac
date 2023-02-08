@@ -65,4 +65,4 @@ or
 ### DISCLAIMER
 
 - Ad blocking is the main concern of this repo. Any other feature provided by this or consequence of using those features will be the sole responsibility of the user, not me.
-
+Note: this is a partial fork of SpotX.
