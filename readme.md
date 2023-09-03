@@ -1,21 +1,4 @@
-    
 
-<center>
-    <h4 align="center">This is my spotify ad blocker. It's made for macs so if you need windows adblockers, i'm working on one of those too.</h4>
-    <p align="center">
-        <strong>Last updated:</strong> uuuuuhhh now i guess <br>
-        <strong>Last tested version:</strong>this one
-    </p> 
-</center>
-
-### Features:
-
-- It blocks all video, audio, and banner ads
-- no more logging
-- you can skip any track
-- you can optionally block spotify updates
-- you can enable experimental features which are fun
-- And you can hid basically anything you want on the home screen
 ### Installation/Update:
 
 - close spotify
@@ -36,14 +19,6 @@ bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck-Mac/main/in
 `-P`  Path to Spotify.app -- set custom Spotify app path  
 `-u`  Update block -- blocks automatic updates  
 
-Use any combination of flags.  
-The following example clears app cache, adds experimental features, leaves new UI enabled and blocks updates:
-    
-```
-bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck-Mac/main/install.sh) -ceu
-```
-
-
 ### Uninstall:
 
 - Close Spotify.
@@ -53,16 +28,4 @@ bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck-Mac/main/in
 bash <(curl -sSL https://raw.githubusercontent.com/KieranK07/AdsSuck-Mac/main/uninstall.sh)
 ```
 
-or
-
-- Reinstall Spotify
-
-### Notes:
-
-- audio/video ads during Podcast playback are currently NOT blocked with this thing.
-- spicetify users: When using this program + Spicetify, the current script requires running it first.
-
-### DISCLAIMER
-
-- Ad blocking is the main concern of this repo. Any other feature provided by this or consequence of using those features will be the sole responsibility of the user, not me.
-Note: this is a partial fork of SpotX.
+Note: this is a partial fork of SpotX
